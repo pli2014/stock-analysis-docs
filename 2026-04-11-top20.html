@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦞 小龙虾 - 2026-04-11 价值投资精选 TOP20</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden; }
+        .header { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 40px 30px; text-align: center; }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+        .header p { font-size: 1.1em; opacity: 0.9; }
+        .timestamp { font-size: 0.9em; opacity: 0.8; margin-top: 10px; }
+        
+        .section { padding: 30px; border-bottom: 1px solid #eee; }
+        .section-title { font-size: 1.5em; color: #333; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+        .section-title::before { content: ''; display: inline-block; width: 4px; height: 24px; background: linear-gradient(to bottom, #f093fb, #f5576c); border-radius: 2px; }
+        
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        th { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 15px 10px; font-weight: 600; text-align: left; font-size: 0.9em; }
+        td { padding: 12px 10px; border-bottom: 1px solid #f0f0f0; color: #333; }
+        tr:hover { background: #f8f9ff; transition: all 0.3s ease; }
+        
+        .rank-gold { background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); color: #333; font-weight: bold; padding: 5px 12px; border-radius: 20px; display: inline-block; font-size: 0.85em; }
+        .rank-silver { background: linear-gradient(135deg, #c0c0c0 0%, #e8e8e8 100%); color: #333; font-weight: bold; padding: 5px 12px; border-radius: 20px; display: inline-block; font-size: 0.85em; }
+        .rank-bronze { background: linear-gradient(135deg, #cd7f32 0%, #e8a87c 100%); color: white; font-weight: bold; padding: 5px 12px; border-radius: 20px; display: inline-block; font-size: 0.85em; }
+        
+        .positive { color: #e74c3c; font-weight: 600; }
+        .negative { color: #27ae60; font-weight: 600; }
+        .warning { background: #fff3cd; padding: 15px; border-radius: 8px; margin: 10px 0; border-left: 4px solid #ffc107; }
+        .success { background: #d4edda; padding: 15px; border-radius: 8px; margin: 10px 0; border-left: 4px solid #28a745; }
+        
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; margin-top: 20px; }
+        .card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .card h3 { font-size: 1.1em; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+        .card pre { background: rgba(255,255,255,0.1); padding: 12px; border-radius: 6px; font-size: 0.85em; line-height: 1.6; white-space: pre-wrap; }
+        
+        .industry-chart { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; }
+        .industry-item { background: #f8f9ff; padding: 15px; border-radius: 8px; text-align: center; border: 2px solid #e0e7ff; }
+        .industry-item strong { display: block; font-size: 1.2em; margin-bottom: 5px; }
+        
+        .action-list { list-style: none; margin: 15px 0; }
+        .action-list li { padding: 12px; margin: 8px 0; background: #f8f9ff; border-radius: 8px; border-left: 4px solid #667eea; }
+        .action-buy { border-left-color: #28a745; background: #d4edda; }
+        .action-wait { border-left-color: #ffc107; background: #fff3cd; }
+        .action-avoid { border-left-color: #dc3545; background: #f8d7da; }
+        
+        .footer { background: #f8f9fa; padding: 20px; text-align: center; color: #666; font-size: 0.9em; }
+        .emoji { font-size: 1.2em; }
+        
+        @media (max-width: 768px) {
+            .card-grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 1.8em; }
+            table { font-size: 0.85em; }
+            th, td { padding: 8px 5px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🦞 小龙虾 - 价值投资精选 TOP20</h1>
+            <p>连续 30 日趋势向上 + 累计涨幅>20% + 市值~100 亿</p>
+            <p class="timestamp">📅 更新时间：2026-04-11 17:20 | 📍 数据源：同花顺数据中心</p>
+        </div>
+
+        <!-- TOP 1-5 Core Recommendations -->
+        <div class="section">
+            <h2 class="section-title">⭐⭐⭐⭐⭐ TOP 1-5 核心推荐（立即关注）</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>排名</th><th>代码</th><th>名称</th><th>现价</th><th>今日%</th><th>三日%</th><th>五日%</th><th>净流入</th><th>行业亮点</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="rank-gold">🥇 1</span></td>
+                        <td><strong>300207</strong></td>
+                        <td><strong>欣旺达</strong></td>
+                        <td>¥28.63</td>
+                        <td class="positive">+14.70%</td>
+                        <td class="positive"><strong>+19.65%</strong></td>
+                        <td class="positive"><strong>+15.02%</strong></td>
+                        <td class="positive"><strong>+9.28 亿</strong>✅</td>
+                        <td>🔋 消费电子电池龙头</td>
+                    </tr>
+                    <tr>
+                        <td><span class="rank-silver">🥈 2</span></td>
+                        <td><strong>300131</strong></td>
+                        <td><strong>英唐智控</strong></td>
+                        <td>¥15.42</td>
+                        <td class="positive">+20.00%</td>
+                        <td class="positive"><strong>+35.69%</strong></td>
+                        <td class="positive"><strong>+36.75%</strong></td>
+                        <td class="positive"><strong>+7.03 亿</strong>✅</td>
+                        <td>🤖 AIoT 智能控制</td>
+                    </tr>
+                    <tr>
+                        <td><span class="rank-bronze">🥉 3</span></td>
+                        <td><strong>300468</strong></td>
+                        <td><strong>四方精创</strong></td>
+                        <td>¥33.82</td>
+                        <td class="positive">+12.36%</td>
+                        <td class="positive"><strong>+18.57%</strong></td>
+                        <td class="positive"><strong>+16.19%</strong></td>
+                        <td class="positive"><strong>+4.19 亿</strong>✅</td>
+                        <td>💻 金融科技/数字货币</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>300390</td>
+                        <td>天华新能</td>
+                        <td>¥68.30</td>
+                        <td class="positive">+10.16%</td>
+                        <td>--</td>
+                        <td>--</td>
+                        <td class="positive">+4.73 亿✅</td>
+                        <td>🔋 锂电池材料</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>300866</td>
+                        <td>安克创新</td>
+                        <td>¥116.50</td>
+                        <td class="positive">+11.38%</td>
+                        <td>--</td>
+                        <td>--</td>
+                        <td class="positive">+2.70 亿✅</td>
+                        <td>📱 消费电子出海</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h3>🏆 欣旺达 (300207)</h3>
+                    <pre>【买点】当前价¥28.63 可分批建仓 2-3%
+【止损】¥26.50 (回撤 7% 保护)
+【目标】第一阶段¥32，第二阶段¥35
+【逻辑】苹果产业链 + 快充电池 + 新能源车三驾马车</pre>
+                </div>
+                <div class="card">
+                    <h3>🥈 英唐智控 (300131)</h3>
+                    <pre>【策略】等待回踩¥14.50-14.80 再介入
+【止损】¥13.80
+【警告】五日已涨 36%，不要追高！
+【逻辑】AI 边缘计算概念爆发</pre>
+                </div>
+                <div class="card">
+                    <h3>🥉 四方精创 (300468)</h3>
+                    <pre>【买点】当前价¥33.82 可设 2% 观察仓
+【止损】¥31.00
+【逻辑】数字人民币推广 + 银行 IT 刚需
+【评级】稳健金融科技 ⭐⭐⭐⭐</pre>
+                </div>
+            </div>
+        </div>
+
+        <!-- TOP 6-10 Worth Watching -->
+        <div class="section">
+            <h2 class="section-title">⭐⭐⭐⭐ TOP 6-10 值得关注（继续观察）</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>排名</th><th>代码</th><th>名称</th><th>现价</th><th>今日%</th><th>五日%</th><th>换手率</th><th>行业亮点</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>6</td><td>688690</td><td>纳微科技</td><td>¥31.54</td><td class="positive">+20.01%</td><td>+1.30%</td><td>5.58%</td><td>🧪 科创板材料龙头</td></tr>
+                    <tr><td>7</td><td>300868</td><td>杰美特</td><td>¥64.21</td><td class="positive">+12.12%</td><td class="positive">+22.59%</td><td>11.63%</td><td>📱 消费电子精密部件</td></tr>
+                    <tr><td>8</td><td>301369</td><td>联动科技</td><td>¥161.09</td><td class="positive">+11.88%</td><td class="positive">+24.45%</td><td>9.39%</td><td>🏭 机械自动化</td></tr>
+                    <tr><td>9</td><td>301246</td><td>宏源药业</td><td>¥25.00</td><td class="positive">+11.86%</td><td>--</td><td>24.16%</td><td>💊 医药研发 CRO</td></tr>
+                    <tr><td>10</td><td>688573</td><td>信宇人</td><td>¥21.50</td><td class="positive">+10.77%</td><td>--</td><td>20.57%</td><td>⚙️ 高端装备制造</td></tr>
+                </tbody>
+            </table>
+            <div class="success">
+                <strong>💡 重点点评：</strong><br>
+                ✅ <strong>杰美特</strong>：五日累计 +22.59%，完美符合条件，当前价可设 1% 观察仓<br>
+                ✅ <strong>联动科技</strong>：走势非常健康，三日 +24.55%/五日 +24.45%，适合中线持有
+            </div>
+        </div>
+
+        <!-- Industry Distribution -->
+        <div class="section">
+            <h2 class="section-title">📊 行业分布</h2>
+            <div class="industry-chart">
+                <div class="industry-item"><strong>📱 消费电子/AIoT</strong>25%<br><small>5 家个股</small></div>
+                <div class="industry-item"><strong>🔋 新能源/锂电</strong>20%<br><small>4 家个股</small></div>
+                <div class="industry-item"><strong>🧪 新材料</strong>20%<br><small>4 家个股</small></div>
+                <div class="industry-item"><strong>🏭 高端制造</strong>15%<br><small>3 家个股</small></div>
+                <div class="industry-item"><strong>💻 金融科技</strong>10%<br><small>2 家个股</small></div>
+                <div class="industry-item"><strong>💊 医药/CXO</strong>10%<br><small>2 家个股</small></div>
+            </div>
+        </div>
+
+        <!-- Key Data Summary -->
+        <div class="section">
+            <h2 class="section-title">💰 资金流向特征</h2>
+            <div class="success">
+                <strong>✅ 主力真金白银买入（净流入超 1 亿）：</strong><br><br>
+                🔥 欣旺达 +9.28 亿 (最强)<br>
+                🔥 英唐智控 +7.03 亿<br>
+                🔥 天华新能 +4.73 亿<br>
+                🔥 四方精创 +4.19 亿<br>
+                🔥 安克创新 +2.70 亿
+            </div>
+            <div class="warning">
+                <strong>⚠️ 资金大幅流出风险标的（坚决回避）：</strong><br><br>
+                ❌ 国轩高科 -14.06 亿<br>
+                ❌ 中国动力 -15.20 亿<br>
+                ❌ 德业股份 -10.36 亿<br>
+                ❌ 圣阳股份 -5.21 亿
+            </div>
+        </div>
+
+        <!-- Action Plan -->
+        <div class="section">
+            <h2 class="section-title">🎯 最终行动清单</h2>
+            
+            <h3 style="color:#28a745; margin: 20px 0 10px;">✅ 可以立即操作的</h3>
+            <ul class="action-list">
+                <li class="action-buy"><strong>欣旺达 (300207)</strong> @ ¥28.63 — 2-3% 仓位，止损¥26.50</li>
+                <li class="action-buy"><strong>四方精创 (300468)</strong> @ ¥33.82 — 2% 观察仓，止损¥31.00</li>
+            </ul>
+
+            <h3 style="color:#ffc107; margin: 20px 0 10px;">⏳ 等待回调再接的</h3>
+            <ul class="action-list">
+                <li class="action-wait"><strong>英唐智控 (300131)</strong> — 等回踩¥14.50-14.80</li>
+                <li class="action-wait"><strong>杰美特 (300868)</strong> — 等站稳¥62 再考虑</li>
+            </ul>
+
+            <h3 style="color:#dc3545; margin: 20px 0 10px;">❌ 坚决不碰的</h3>
+            <ul class="action-list">
+                <li class="action-avoid">所有<strong>资金大幅流出</strong>的涨停股（即使当天大涨）</li>
+                <li class="action-avoid"><strong>ST/*ST/退市风险股</strong>一律远离</li>
+                <li class="action-avoid"><strong>市盈率超 100 倍</strong>的概念妖股</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p style="font-size: 1.2em; margin-bottom: 10px;">🦞 保护本金第一，利润第二！</p>
+            <p>以上仅为技术分析，不构成投资建议。股市有风险，入市需谨慎！</p>
+            <p style="margin-top: 15px; color: #999;">完整报告：memory/2026-04-11-top20.md | Generated by OpenClaw 🦞</p>
+        </div>
+    </div>
+</body>
+</html>
