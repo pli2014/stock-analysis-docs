@@ -1,0 +1,25 @@
+# Git Ignore for Stock Analysis Docs
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor backups
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Windows system files
+$RECYCLE.BIN/
+
+# VS Code settings
+.vscode/settings.json
+
+# Auto-generated backup files (if any)
+*.bak
+*.backup
