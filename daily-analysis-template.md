@@ -95,8 +95,8 @@ stock-analysis-docs/
 
 ```powershell
 步骤 1: 打开 6 个同花顺数据中心页面
-       ├─ https://data.10jqka.com.cn/rank/zdfph/  (涨跌幅)
-       ├─ https://data.10jqka.com.cn/rank/gxg/     (创新高)
+       ├─ https://data.10jqka.com.cn/market/zdfph/  (涨跌幅)
+       ├─ https://data.10jqka.com.cn/rank/cxg/     (创新高)
        ├─ https://data.10jqka.com.cn/rank/lxsz/    (连续上涨)
        ├─ https://data.10jqka.com.cn/rank/cyfl/    (持续放量)
        ├─ https://data.10jqka.com.cn/rank/cxg/     (向上突破)
@@ -222,8 +222,8 @@ stock-analysis-docs/
 
 ```powershell
 # 一键开启 6 个分析窗口
-Start-Process "https://data.10jqka.com.cn/rank/zdfph/"
-Start-Process "https://data.10jqka.com.cn/rank/gxg/"
+Start-Process "https://data.10jqka.com.cn/market/zdfph/"
+Start-Process "https://data.10jqka.com.cn/rank/cxg/"
 Start-Process "https://data.10jqka.com.cn/rank/lxsz/"
 Start-Process "https://data.10jqka.com.cn/rank/cyfl/"
 Start-Process "https://data.10jqka.com.cn/rank/cxg/"
