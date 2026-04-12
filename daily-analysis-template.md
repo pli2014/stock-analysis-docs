@@ -9,12 +9,12 @@
 ## ✅ **每日 6 大核心分析任务**
 
 ### 1️⃣ 【涨跌幅排行分析】
-- **URL**: https://data.10jqka.com.cn/rank/zdfph/
+- **URL**: https://data.10jqka.com.cn/market/zdfph/
 - **重点**: 涨停板股、资金流向、主力净流入/流出
 - **输出**: `daily-reports/YYYY-MM-DD-涨跌幅排行.md`
 
 ### 2️⃣ 【创新高股票分析】
-- **URL**: https://data.10jqka.com.cn/rank/gxg/
+- **URL**: https://data.10jqka.com.cn/rank/cxg/
 - **重点**: 创 N 日新高 (N≥60 天), 历史级突破，基本面支撑
 - **输出**: `thematic-reports/YYYY-MM-DD-创新高.md`
 
