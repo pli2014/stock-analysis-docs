@@ -233,11 +233,60 @@ stock-analysis-docs/
 
 ## 📝 Changelog | 更新日志
 
+### v1.3 — Weekly Update (2026-05-04)
+
+**🎉 Second Week of Automated Analysis:**
+
+✅ **2026-05-04 Complete 6-Module Analysis**:
+  - 📊 [涨跌幅排行分析](./daily-reports/2026-05-04-涨跌幅排行.md) — TOP10 涨停股 + 资金流向深度解读
+  - 🚀 [创新高股票精选](./thematic-reports/2026-05-04-创新高.md) — 创 N 日新高机会挖掘
+  - ⬆️ [连续上涨强势股](./thematic-reports/2026-05-04-连续上涨.md) — 连涨≥7 天核心标的 (长龄液压 +64%,三环集团 +35%)
+  - 💧 [持续放量主力介入](./thematic-reports/2026-05-04-持续放量.md) — 主力资金净流入榜
+  - 🔼 [向上突破技术形态](./thematic-reports/2026-05-04-向上突破.md) — 关键压力位突破机会
+  - ⚡ [量价齐升动力充足](./thematic-reports/2026-05-04-量价齐升.md) — 价格成交量同步上升
+
+🎯 **Today's Top Picks**:
+  - 寒武纪 (688256) — AI 芯片龙头，三日流入 +32.35 亿@¥1600-1650 建仓
+  - 长龄液压 (605389) — 双榜共振最强趋势股@¥110-115 加仓
+  - 芯原股份 (688521) — 半导体 IP 领军@¥270-275 布局
+  - 中国长城 (000066) — 信创龙头涨停突破@¥18.5-19.0 跟进
+
+💰 **Market Summary**:
+  • AI 芯片板块领涨 (寒武纪单日流入 +32.35 亿创纪录)
+  • 长龄液压连涨 11 天累计 +64.74%,换手仅 19.94%
+  • 中国长城涨停创新高，计算机设备板块爆发
+
+⚠️ **Avoid These**:
+  • 光莆股份 (300632) — 五日流出 6.98 亿，高换手 53.67%
+  • 德方纳米 (300769) — 换手率超 100%，获利盘巨大
+  • 共达电声 (002655) — 八日换手 115.76%，游资接力风险
+
+**Committer**: FuNiu & AI Assistant (小龙虾 🦞)  
+**Commit Hash**: `6026467`
+
+---
+
+### v1.2 — Data Collection (2026-05-03)
+
+**📊 Preliminary Market Research:**
+
+✅ **2026-05-03 Initial 6-Module Scan**:
+  - Collected raw data from all six ranking categories
+  - Identified key targets for detailed analysis
+  - Set up data cross-validation methodology
+
+**Prepared for**: Full-depth analysis on 2026-05-04
+
+**Committer**: AI Assistant (小龙虾 🦞)  
+**Commit Hash**: `previous_commit`
+
+---
+
 ### v1.1 — Daily Analysis Launch (2026-04-20)
 
 **🎉 First Full Day's Work:**
 
-✅ **2026-04-20 Complete 6-Module Analysis:**
+✅ **2026-04-20 Complete 6-Module Analysis**:
   - 📊 [涨跌幅排行分析](./daily-reports/2026-04-20-涨跌幅排行.md) — TOP10 涨停股 + 资金流向深度解读
   - 🚀 [创新高股票精选](./thematic-reports/2026-04-20-创新高.md) — 创 N 日新高机会挖掘
   - ⬆️ [连续上涨强势股](./thematic-reports/2026-04-20-连续上涨.md) — 连涨≥7 天核心标的 (寒武纪 +38%,生益科技 +35%)
